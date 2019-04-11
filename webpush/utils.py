@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.forms.models import model_to_dict
-from django.urls import reverse
+#from django.urls import reverse
+from django.core.urlresolvers import reverse
 
 from pywebpush import WebPushException, webpush
 
